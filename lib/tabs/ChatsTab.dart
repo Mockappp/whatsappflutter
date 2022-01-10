@@ -87,8 +87,7 @@ class ChatsTab extends StatelessWidget {
     return ListView.separated(
       itemCount: chatListItems.length,
       separatorBuilder: (ctx, i) {
-        return Text('');
-        //  Divider();
+        return  Divider();
       },
       itemBuilder: (ctx, i) {
         return ListTile(
